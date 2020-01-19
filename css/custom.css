@@ -1,0 +1,45 @@
+.main-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 50%;
+}
+img + img {
+    margin-top: 10px;
+}
+
+input {
+    border: 2px solid #dcdcdc;
+    border-radius: 5px;
+    height: 35px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.search,
+#gallery {
+    width: 90%;
+}
+
+#gallery {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* ======== MEDIA QUERIES ============= */
+
+@media (min-width: 768px) {
+    input {
+        width: 200%;
+        margin-bottom: -10%;
+        margin-left: -32%;
+    }
+    
+    img {
+        margin: 25px 50px;
+        width: 14%;
+    }
+}
