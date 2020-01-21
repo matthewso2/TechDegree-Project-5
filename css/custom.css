@@ -42,4 +42,8 @@ input {
         margin: 25px 50px;
         width: 14%;
     }
+
+    .fancybox-caption__body {
+        font-size: 20px;
+    }
 }
